@@ -3,7 +3,7 @@
 /**
  *  main - Entry point
  *
- *  Description: print all aplhabet letters
+ *  Description: print all aplhabet letters except q and e
  *
  *  Return: Always 0 (Success)
  */
@@ -15,7 +15,9 @@ int main(void)
 	while (ch <= 'z')
 	{
 		if (ch == 'e' || ch == 'q')
+		{
 			ch++;
+		}
 		putchar(ch);
 		ch++;
 	}
