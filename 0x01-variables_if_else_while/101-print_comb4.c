@@ -29,7 +29,7 @@ int main(void)
 
 						if (digit1 + digit2 + digit3 != 24)
 						{
-							puutchar(',');
+							putchar(',');
 							putchar(' ');
 						}
 					}
