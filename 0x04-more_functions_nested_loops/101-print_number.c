@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_numbers - Prints an integer.
+ * print_number - Prints an integer.
+ * Description: print all aplhabet letters
  * @n: The integer tp print.
  * Return: Nothing
  */
