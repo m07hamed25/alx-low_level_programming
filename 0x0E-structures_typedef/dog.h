@@ -3,17 +3,17 @@
 
 /**
  * struct dog - a dog struct
- * @n: dog name
- * @a:dog age
- * @o: owner name
- * Description: just a lone dog struct in a big kitty world
+ * @name: dog name
+ * @age: dog age
+ * @owner: owner name
+ *i Description: just a lone dog struct in a big kitty world
  */
 
 struct dog
 {
-	char *n;
-	float a;
-	char *o;
+	char *name;
+	float age;
+	char *owner;
 };
 
 #endif
