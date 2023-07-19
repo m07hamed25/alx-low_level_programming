@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * main - entry point
+ * main - check the code for the school student
  * @argc: the num of args
  * @argv: arg vector
  * Return: Always 0
