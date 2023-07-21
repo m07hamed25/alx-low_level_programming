@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 
-/*
+/**
  * print_strings - prints strings with separator
  * @separator: the string separator
  * @n: the number of argument
@@ -13,7 +13,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	int i = n;
 	char *str;
-	va list ap;
+	va_list ap;
 
 	if (!n)
 	{
